@@ -1,0 +1,16 @@
+.html {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  background-color: #F1EFDE;
+}
+
+.html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}

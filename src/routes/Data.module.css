@@ -1,0 +1,23 @@
+.mainContainer {
+  background-color: #12401D;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  
+}
+
+.leftContainer{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.rightContainer {
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}

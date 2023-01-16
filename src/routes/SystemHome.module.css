@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'noto-m';
+  src: url('../font/NotoSansCJKkr-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'noto-b';
+  src: url('../font/NotoSansCJKkr-Bold.ttf') format('truetype');
+}
+
+.mainContainer{
+
+} 
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 60px;
+  background-color: #102010;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.logos {
+  display: flex;
+  justify-content: left;
+  font-size: 20pt;
+  /* font-family: 'noto-m'; */
+  color: #F1EFDE;
+  align-items: center;
+}
+
+.menu {
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'noto-m';
+  align-items: center;
+  color: #F1EFDE;
+}
+
+.contents {
+  background-color: #F1EFDE;
+  margin-top: 60px;
+  padding-top: 8vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.topBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.titleTxt {
+  font-family: 'noto-b';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.detailBox {
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 350px;
+  height: 250px;
+  background-color: #203F21;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  box-shadow: 0px 0px 10px -3px gray;
+}
+
+.downBox{
+  height: 35vh;
+  width: 90vw;
+  margin-top: 10vh;
+  background-color: #E5EACA;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 0px 10px -3px gray;
+}
+
+.trackingContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'noto-m';
+  font-size: 18px;
+}
+
+.trackingBox {
+  background-color: #7FBC7F;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px -3px gray;
+  font-family: 'noto-m';
+}
+
+.trackingBoxDeActivate{
+  background-color: #b4c0b4;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px -3px gray;
+  font-family: 'noto-m';
+}
+
+.mainpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  /* position: fixed; */
+  /* border: 0.25px solid black; */
+  width: 60vw;
+  background-color: #203F21;
+  /* overflow: hidden; */
+}
+
+.input {
+  width: 250px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.btnProduct {
+  color: #3ca13c;
+  font-weight: bold;
+}
+
+.searchBox {
+  height: 250px;
+  overflow: auto;
+}
+
